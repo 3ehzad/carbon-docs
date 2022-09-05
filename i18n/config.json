@@ -1,0 +1,18 @@
+[
+  {
+    "code": "en",
+    "hrefLang": "en-US",
+    "name": "English",
+    "localName": "English",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "fa",
+    "hrefLang": "fa-IR",
+    "name": "Farsi",
+    "localName": "فارسی",
+    "langDir": "rtl",
+    "dateFormat": "DD/MM/YYYY"
+  }
+]
