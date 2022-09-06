@@ -2,65 +2,68 @@ import HomepageTemplate from '../components/Homepage.js';
 export default HomepageTemplate;
 
 ## Browse by topic
- 
-<CardGroup>
-  <MiniCard title="Mining Basics" href="#" actionIcon="arrowRight" />
-  <MiniCard title="Braiins Insights" href="#" actionIcon="arrowRight" />
-  <MiniCard title="Braiins OS+" href="#" actionIcon="arrowRight" />
-  <MiniCard title="Farm Proxy" href="#" actionIcon="arrowRight" />
-  <MiniCard title="Farm Toolbox" href="#" actionIcon="arrowRight" />
-  <MiniCard title="Farm Monitor" href="#" actionIcon="arrowRight" />
-  <MiniCard title="Braiins Pool" href="#" actionIcon="arrowRight" />
-  <MiniCard title="Tools & Processes" href="#" actionIcon="arrowRight" />
-</CardGroup>
+  <CardGroup className="square-card-group">
+    <MiniCard title="Mining Basics" href="#" actionIcon="arrowRight"/>
+    <MiniCard title="Braiins Insights" href="#" actionIcon="arrowRight"/>
+    <MiniCard title="Braiins OS+" href="#" actionIcon="arrowRight"/>
+    <MiniCard title="Farm Proxy" href="#" actionIcon="arrowRight"/>
+    <MiniCard title="Farm Toolbox" href="#" actionIcon="arrowRight"/>
+    <MiniCard title="Farm Monitor" href="#" actionIcon="arrowRight"/>
+    <MiniCard title="Braiins Pool" href="#" actionIcon="arrowRight"/>
+    <MiniCard title="Tools & Processes" href="#" actionIcon="arrowRight"/>
+  </CardGroup>
 
-
-<FeatureCard
-    color="dark"
-    href="/getting-started"
-    title="Webinars"
+## Upcoming Webinars
+<Row>
+  <Column colMd={4} colLg={4} noGutterLeft>
+  <ResourceCard
+    title="Farm Proxy: Reduce your mining data load with hashrate aggregation!"
+    subTitle="MON, SEP 19 ‧ 7:00 PM CEST"
     actionIcon="arrowRight"
-    className="homepage-feature"
-    >
-
-<ArtDirection>
-
-![blue vertical stripes](../images/blue-stripes-mobile.jpg)
-![blue vertical stripes](../images/blue-stripes-tablet.jpg)
-![blue vertical stripes](../images/blue-stripes.jpg)
-
-</ArtDirection>
-
-</FeatureCard>
+    aspectRatio="2:1"
+    href="https://t.me/BraiinsOS">
+  </ResourceCard>
+</Column>
+</Row>
 
 ## Featured Webinars
  
 <Row>
-  <Column colMd={4} colLg={4} noGutterMdLeft>
+  <Column colMd={4} colLg={4} GutterLg>
     <ArticleCard
       title="Farm Proxy: Installation and Configuration"
       readTime="13 minutes"
-      href="#">   
-     ![Dark article layout mockup](../images/Article_06.png)
-    </ArticleCard>
+      href="/"
+      >
 
-  </Column>
-  <Column colMd={4} colLg={4} noGutterMdLeft>
-    <ArticleCard
-      title="Farm Proxy: Installation and Configuration"
-      readTime="13 minutes"
-      href="#">
-     ![Dark article layout mockup](../images/Article_06.png)
-    </ArticleCard>
 
-  </Column>
-  <Column colMd={4} colLg={4} noGutterMdLeft>
-    <ArticleCard
+![Dark article layout mockup](../images/webinar_image.jpg)
+
+  </ArticleCard>
+</Column>
+ <Column colMd={4} colLg={4} GutterLg>
+   <ArticleCard
       title="Farm Proxy: Installation and Configuration"
       readTime="13 minutes"
-      href="#">
-     ![Dark article layout mockup](../images/Article_06.png)
-    </ArticleCard>
+      href="/"
+      >
+
+
+![Dark article layout mockup](../images/webinar_image.jpg)
+
+  </ArticleCard>
+  </Column>
+ <Column colMd={4} colLg={4} GutterLg>
+   <ArticleCard
+      title="Farm Proxy: Installation and Configuration"
+      readTime="13 minutes"
+      href="/"
+      >
+
+
+![Dark article layout mockup](../images/webinar_image.jpg)
+
+  </ArticleCard>
   </Column>
 </Row>
 
@@ -70,6 +73,7 @@ export default HomepageTemplate;
 ## Have Questions?
 Our dev and support teams are always available to help.
 
+<Row className="square-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
   <ResourceCard
     subTitle="View our Telegram group"
@@ -77,12 +81,16 @@ Our dev and support teams are always available to help.
     aspectRatio="2:1"
     href="[https://gatsby-theme-carbon.now.sh](https://t.me/BraiinsOS)">
   </ResourceCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
   <ResourceCard
     subTitle="Contact Support"
     actionIcon="arrowRight"
     aspectRatio="2:1"
     href="[https://gatsby-theme-carbon.now.sh](https://t.me/BraiinsOS)">
   </ResourceCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
   <ResourceCard
     subTitle="Give us Feedback and upvote product ideas"
     actionIcon="arrowRight"
@@ -90,3 +98,4 @@ Our dev and support teams are always available to help.
     href="[https://gatsby-theme-carbon.now.sh](https://t.me/BraiinsOS)">
   </ResourceCard>
 </Column>
+</Row>
