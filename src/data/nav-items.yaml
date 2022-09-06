@@ -1,16 +1,16 @@
 - title: Getting started
   pages:
     - path: /getting-started
-- title: Demo
+- title: Mining Basics
   pages:
     - path: /demo
-- title: Gallery
+- title: Braiins Insights
   pages:
     - path: /gallery
-- title: Contributions
+- title: Braiins OS+
   pages:
     - path: /contributions
-- title: Guides
+- title: Farm Proxy
   pages:
     - title: Authoring MDX
       path: /guides/MDX
@@ -30,7 +30,7 @@
       path: /guides/styling
     - title: v2.0 Migration
       path: /guides/v2-migration
-- title: Components
+- title: Farm Toolbox
   pages:
     - title: Accordion
       path: /components/Accordion
