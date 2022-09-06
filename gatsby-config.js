@@ -21,6 +21,9 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
+        theme: {
+          homepage: 'white',
+        },
         mediumAccount: 'carbondesign',
         repository: {
           baseUrl:
