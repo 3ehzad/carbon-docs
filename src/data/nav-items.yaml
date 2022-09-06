@@ -1,17 +1,62 @@
-- title: Getting started
-  pages:
-    - path: /getting-started
 - title: Mining Basics
   pages:
-    - path: /demo
+    - title: Sub-page 1
+      path: /mining-basics
+    - title: Sub-page 2
+      path: /mining-basics
 - title: Braiins Insights
   pages:
-    - path: /gallery
+    - title: Sub-page 1
+      path: /braiins-insights
+    - title: Sub-page 2
+      path: /braiins-insights
 - title: Braiins OS+
   pages:
-    - path: /contributions
+    - title: Sub-page 1
+      path: /braiins-os
+    - title: Sub-page 2
+      path: /braiins-os
 - title: Farm Proxy
   pages:
+    - title: Sub-page 1
+      path: /farm-proxy
+    - title: Sub-page 2
+      path: /farm-proxy
+- title: Farm Toolbox
+  pages:
+    - title: Sub-page 1
+      path: /farm-toolbox
+    - title: Sub-page 2
+      path: /farm-toolbox    
+- title: Farm Monitor
+  pages:
+    - title: Sub-page 1
+      path: /farm-monitor
+    - title: Sub-page 2
+      path: /farm-monitor
+- title: Braiins Pool
+  pages:
+    - title: Sub-page 1
+      path: /braiins-pool
+    - title: Sub-page 2
+      path: /braiins-pool
+- title: Tools & Processes
+  pages:
+    - title: Sub-page 1
+      path: /tools-processes
+    - title: Sub-page 2
+      path: /tools-processes
+#### Demo pages from Gatsby Carbon Design System      
+- title: Gatsbyjs Demo
+  pages:
+    - title: Getting Started
+      path: /getting-started
+    - title: Demo  
+      path: /demo
+    - title: Gallery
+      path: /gallery
+    - title: Contributions
+      path: /contributions
     - title: Authoring MDX
       path: /guides/MDX
     - title: Configuration
@@ -30,8 +75,6 @@
       path: /guides/styling
     - title: v2.0 Migration
       path: /guides/v2-migration
-- title: Farm Toolbox
-  pages:
     - title: Accordion
       path: /components/Accordion
     - title: AnchorLinks
