@@ -5,7 +5,7 @@ import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from './carbon.jpg';
 
-const FirstLeftText = () => <p>Callout component</p>;
+const FirstLeftText = () => (<p>Callout component</p>);
 
 const FirstRightText = () => (
   <p>
@@ -37,18 +37,20 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>Carbon Gatsby theme</h1>;
+const BannerText = () => (
+  <h1>Braiins University</h1>
+  );
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
-  FirstCallout: (
-    <HomepageCallout
-      backgroundColor="#030303"
-      color="white"
-      leftText={FirstLeftText}
-      rightText={FirstRightText}
-    />
-  ),
+  // FirstCallout: (
+  //   <HomepageCallout
+  //     backgroundColor="#030303"
+  //     color="white"
+  //     leftText={FirstLeftText}
+  //     rightText={FirstRightText}
+  //   />
+  // ),
   SecondCallout: (
     <HomepageCallout
       leftText={SecondLeftText}
