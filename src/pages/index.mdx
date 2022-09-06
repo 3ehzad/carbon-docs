@@ -1,21 +1,24 @@
 import HomepageTemplate from '../components/Homepage.js';
 export default HomepageTemplate;
 
-## MDX content starts here
+## Browse by topic
+ 
+<CardGroup>
+  <MiniCard title="Mining Basics" href="#" actionIcon="arrowRight" />
+  <MiniCard title="Braiins Insights" href="#" actionIcon="arrowRight" />
+  <MiniCard title="Braiins OS+" href="#" actionIcon="arrowRight" />
+  <MiniCard title="Farm Proxy" href="#" actionIcon="arrowRight" />
+  <MiniCard title="Farm Toolbox" href="#" actionIcon="arrowRight" />
+  <MiniCard title="Farm Monitor" href="#" actionIcon="arrowRight" />
+  <MiniCard title="Braiins Pool" href="#" actionIcon="arrowRight" />
+  <MiniCard title="Tools & Processes" href="#" actionIcon="arrowRight" />
+</CardGroup>
 
-<PageDescription>
-
-The homepage content here lives in the `src/pages/index.mdx` directory at the
-root of your project. Just like the other mdx pages, you can use all of our
-theme components here without importing them. Review the
-[MDX example source](https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/pages/index.mdx).
-
-</PageDescription>
 
 <FeatureCard
     color="dark"
     href="/getting-started"
-    title="Getting started"
+    title="Webinars"
     actionIcon="arrowRight"
     className="homepage-feature"
     >
@@ -29,3 +32,61 @@ theme components here without importing them. Review the
 </ArtDirection>
 
 </FeatureCard>
+
+## Featured Webinars
+ 
+<Row>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="Farm Proxy: Installation and Configuration"
+      readTime="13 minutes"
+      href="#">   
+     ![Dark article layout mockup](../images/Article_06.png)
+    </ArticleCard>
+
+  </Column>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="Farm Proxy: Installation and Configuration"
+      readTime="13 minutes"
+      href="#">
+     ![Dark article layout mockup](../images/Article_06.png)
+    </ArticleCard>
+
+  </Column>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="Farm Proxy: Installation and Configuration"
+      readTime="13 minutes"
+      href="#">
+     ![Dark article layout mockup](../images/Article_06.png)
+    </ArticleCard>
+  </Column>
+</Row>
+
+## Braiins Full-Stack Mining Solution
+<Video title="Carbon homepage video" vimeoId="322021187" />
+
+## Have Questions?
+Our dev and support teams are always available to help.
+
+<Column colMd={4} colLg={4} noGutterSm>
+  <ResourceCard
+    subTitle="View our Telegram group"
+    actionIcon="arrowRight"
+    aspectRatio="2:1"
+    href="[https://gatsby-theme-carbon.now.sh](https://t.me/BraiinsOS)">
+  </ResourceCard>
+  <ResourceCard
+    subTitle="Contact Support"
+    actionIcon="arrowRight"
+    aspectRatio="2:1"
+    href="[https://gatsby-theme-carbon.now.sh](https://t.me/BraiinsOS)">
+  </ResourceCard>
+  <ResourceCard
+    subTitle="Give us Feedback and upvote product ideas"
+    actionIcon="arrowRight"
+    aspectRatio="2:1"
+    href="[https://gatsby-theme-carbon.now.sh](https://t.me/BraiinsOS)">
+  </ResourceCard>
+</Column>
