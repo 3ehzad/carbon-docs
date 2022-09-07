@@ -1,35 +1,35 @@
 - title: Mining Basics
   pages:
     - title: Overview
-      path: #
+      path: /sub-page-random/
     - title: Introduction to mining
-      path: #
+      path: /sub-page-random/
     - title: What is an ASIC miner?
-      path: #
+      path: /sub-page-random/
     - title: What is cloud mining?
-      path: #
+      path: /sub-page-random/
     - title: What is merged mining?
-      path: #
+      path: /sub-page-random/
     - title: Mining Profitability
-      path: #
+      path: /sub-page-random/
     - title: AsicBoost
-      path: #
+      path: /sub-page-random/
     - title: Advanced mining options
-      path: #
+      path: /sub-page-random/
 - title: Braiins Insights
   pages:
     - title: Overview
-      path: #
+      path: /sub-page-random/
     - title: About Braiins Insights
-      path: #
+      path: /sub-page-random/
     - title: Bitcoin Mining Stats
-      path: #
+      path: /sub-page-random/
     - title: Profitability Calculator
-      path: #
+      path: /sub-page-random/
     - title: Cost to Mine 1 BTC
-      path: #
+      path: /sub-page-random/
     - title: Mining Pool Stats
-      path: #
+      path: /sub-page-random/
 - title: Braiins OS+
   pages:
     - title: Sub-page 1
@@ -43,43 +43,43 @@
     - title: Installation & Configuration
       path: /farm-proxy/installation-and-configuration
     - title: Advanced Options
-      path: #
+      path: /sub-page-random/
     - title: User Guide
-      path: #
+      path: /sub-page-random/
     - title: Monitoring with Prometheus and Grafana
-      path: #
+      path: /sub-page-random/
     - title: Troubleshooting
-      path: #
+      path: /sub-page-random/
 - title: Farm Toolbox
   pages:
     - title: Sub-page 1
-      path: #
+      path: /sub-page-random/
     - title: Sub-page 2
-      path: #
+      path: /sub-page-random/
 - title: Farm Monitor
   pages:
     - title: Sub-page 1
-      path: #
+      path: /sub-page-random/
     - title: Sub-page 2
-      path: #
+      path: /sub-page-random/
 - title: Braiins Pool
   pages:
     - title: Overview
-      path: #
+      path: /sub-page-random/
     - title: Rewards & Payouts
-      path: #
+      path: /sub-page-random/
     - title: User Accounts
-      path: #
+      path: /sub-page-random/
     - title: Worker Management & Monitoring
-      path: #
+      path: /sub-page-random/
     - title: Technical Documentation
-      path: #
+      path: /sub-page-random/
     - title: Mobile App
-      path: #
+      path: /sub-page-random/
     - title: Troubleshooting
-      path: #
+      path: /sub-page-random/
     - title: About Pool
-      path: #
+      path: /sub-page-random/
 - title: Tools & Processes
   pages:
     - title: Sub-page 1
