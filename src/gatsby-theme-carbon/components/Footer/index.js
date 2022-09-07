@@ -4,36 +4,29 @@ import Footer from 'gatsby-theme-carbon/src/components/Footer';
 const Content = ({ buildTime }) => (
   <>
     <p>
-      The <code>Content</code> component receives a <code>buildTime</code> prop
-      that to display your site's build time: {buildTime}
+    <strong>Bitcoin mining full stack company</strong>
     </p>
     <p>
-      By importing the <strong>Footer</strong> component from
-      gatsby-theme-carbon, we can supply our own props.
+    Pushing the mining industry forward with a full-stack solution from mining firmware up to the pool
     </p>
     <p>
-      The default export from a shadowed component will replace that component
-      in the theme.
-    </p>
-    <p>
-      <a href="https://www.gatsbyjs.org/docs/themes/api-reference/#component-shadowing">
-        More about component shadowing
-      </a>
+     Build time: {buildTime}
     </p>
   </>
 );
 
 const links = {
   firstCol: [
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
+    { href: 'https://braiins.com/', linkText: 'Braiins Pool' },
+    { href: 'https://braiins.com/', linkText: 'Braiins OS+' },
+    { href: 'https://braiins.com/', linkText: 'Farm Proxy' },
+    { href: 'https://braiins.com/', linkText: 'Startum V2' },
+    { href: 'https://braiins.com/', linkText: 'Mining Insights' },
   ],
   secondCol: [
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
+    { href: 'https://braiins.com/', linkText: 'Product Updates' },
+    { href: 'https://braiins.com/', linkText: 'Blog' },
+    { href: 'https://braiins.com/', linkText: 'Braiins Design Language' },
   ],
 };
 
