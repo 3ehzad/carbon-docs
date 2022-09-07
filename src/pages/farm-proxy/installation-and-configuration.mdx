@@ -11,41 +11,119 @@ Large scale miners face many challenges. A hashrate aggregation proxy is a key t
 
 Proin congue, lectus vel eleifend pulvinar, lorem purus ornare nunc, ut vulputate ex tortor et velit. Aenean non tellus nisi. Aenean vestibulum vitae enim a placerat. Sed nec aliquam elit. Vivamus pretium nisl at sapien semper ullamcorper. Donec id dui vitae dui ornare ornare. Vivamus tincidunt hendrerit odio, vel euismod nisl.
 
+<InlineNotification kind="warning">
+
+**Important:** When installing Braiins Farm Proxy you need to Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+
+</InlineNotification>
+
+<InlineNotification>
+
+**Good to know:** You can connect up to 100 000 ipsum dolor sit amet, consectetuer adipiscing elit. Itaque earum rerum hic tenetur.
+
+</InlineNotification>
+
 ## How to install Braiins Farm Proxy
 To install Braiins Farm proxy follow these steps: 
 
+1. Download [latest version](https://braiins.com) of Farm Proxy
 
-## Grafana
-# About Grafana
+#### Download Braiins Farm Proxy Repository
+ ```sh
+  sudo apt update
+  sudo apt install git
+  git clone https://github.com/braiins/farm-proxy.git
+  ```
+
+2. Lorem ipsum dolor **sit amet**, consectetuer adipiscing elit. Itaque earum rerum hic tenetur a sapiente delectus
+
+
+3. Praesent in mauris eu tortor porttitor accumsan
+
+#### Verify Prerequisites Installed
+  ```sh
+  docker version
+  docker-compose --version
+  git --version
+  ```
+
+# Configuration
+<PageDescription>
+Braiins Farm Proxy configuration can be split into two main categories - routing configuration and configuration of the accompanying programs (which are BOS Scanner, Prometheus and Grafana).
+</PageDescription>
+
+## Basic Configuration
+<PageDescription>
 Proin congue, lectus vel eleifend pulvinar, lorem purus ornare nunc, ut vulputate ex tortor et velit. Aenean non tellus nisi. Aenean vestibulum vitae enim a placerat. Sed nec aliquam elit. Vivamus pretium nisl at sapien semper ullamcorper. Donec id dui vitae dui ornare ornare. Vivamus tincidunt hendrerit odio, vel euismod nisl.
+</PageDescription>
 
-# Connecting Farm Proxy with Grafana
+  ```toml
+  # Basic sample configuration
+  [[server]]
+  name = "s1"
+  port = 3336
+
+  [[target]]
+  name = "SP-EU"
+  url = "stratum+tcp://eu.stratum.slushpool.com"
+  user_identity = "basicFarm.proxy"
+  aggregation = 100
+
+  [[target]]
+  name = "SP-GL"
+  url = "stratum+tcp://stratum.slushpool.com"
+  user_identity = "basicFarm.proxy"
+  aggregation = 100
+
+  [[target]]
+  name = "SP-RU"
+  url = "stratum+tcp://ru-west.stratum.slushpool.com"
+  user_identity = "basicFarm.proxy"
+  aggregation = 100
+
+  [[routing]]
+  from = ["s1"]
+  [[routing.goal]]
+  name = "Goal 1"
+  # Primary
+  [[routing.goal.level]]
+  targets = ["SP-EU"]
+  # Back-up 1
+  [[routing.goal.level]]
+  targets = ["SP-GL"]
+  # Back-up 2
+  [[routing.goal.level]]
+  targets = ["SP-RU"]
+  ```
 
 ## Resources
 
-<Row className="square-card-group">
+<Row>
 <Column colMd={4} colLg={4} noGutterSm>
   <ResourceCard
     subTitle="Farm Proxy Download"
-    actionIcon="arrowRight"
+    actionIcon="download"
     aspectRatio="2:1"
     href="#">
   </ResourceCard>
   </Column>
   <Column colMd={4} colLg={4} noGutterSm>
   <ResourceCard
-    subTitle="Contact Support"
+    subTitle="Grafana Help Center"
     actionIcon="arrowRight"
     aspectRatio="2:1"
-    href="[https://gatsby-theme-carbon.now.sh](https://t.me/BraiinsOS)">
+    href="https://t.me/BraiinsOS">
   </ResourceCard>
   </Column>
   <Column colMd={4} colLg={4} noGutterSm>
   <ResourceCard
-    subTitle="Give us Feedback and upvote product ideas"
-    actionIcon="arrowRight"
+    subTitle="Internal resources (Braiins only)"
+    actionIcon="launch"
     aspectRatio="2:1"
-    href="[https://gatsby-theme-carbon.now.sh](https://t.me/BraiinsOS)">
+    href="https://drive.google.com/">
+
+![Drive icon](../../images/drive-icon.png)
+
   </ResourceCard>
 </Column>
 </Row>
