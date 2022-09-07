@@ -1,35 +1,35 @@
 - title: Mining Basics
   pages:
     - title: Overview
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Introduction to mining
-      path: /sub-page-random/
+      path: /getting-started/
     - title: What is an ASIC miner?
-      path: /sub-page-random/
+      path: /getting-started/
     - title: What is cloud mining?
-      path: /sub-page-random/
+      path: /getting-started/
     - title: What is merged mining?
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Mining Profitability
-      path: /sub-page-random/
+      path: /getting-started/
     - title: AsicBoost
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Advanced mining options
-      path: /sub-page-random/
+      path: /getting-started/
 - title: Braiins Insights
   pages:
     - title: Overview
-      path: /sub-page-random/
+      path: /getting-started/
     - title: About Braiins Insights
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Bitcoin Mining Stats
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Profitability Calculator
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Cost to Mine 1 BTC
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Mining Pool Stats
-      path: /sub-page-random/
+      path: /getting-started/
 - title: Braiins OS+
   pages:
     - title: Sub-page 1
@@ -39,47 +39,47 @@
 - title: Farm Proxy
   pages:
     - title: Overview
-      path: /
+      path: /farm-proxy/
     - title: Installation & Configuration
       path: /farm-proxy/installation-and-configuration
     - title: Advanced Options
-      path: /sub-page-random/
+      path: /getting-started/
     - title: User Guide
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Monitoring with Prometheus and Grafana
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Troubleshooting
-      path: /sub-page-random/
+      path: /getting-started/
 - title: Farm Toolbox
   pages:
     - title: Sub-page 1
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Sub-page 2
-      path: /sub-page-random/
+      path: /getting-started/
 - title: Farm Monitor
   pages:
     - title: Sub-page 1
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Sub-page 2
-      path: /sub-page-random/
+      path: /getting-started/
 - title: Braiins Pool
   pages:
     - title: Overview
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Rewards & Payouts
-      path: /sub-page-random/
+      path: /getting-started/
     - title: User Accounts
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Worker Management & Monitoring
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Technical Documentation
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Mobile App
-      path: /sub-page-random/
+      path: /getting-started/
     - title: Troubleshooting
-      path: /sub-page-random/
+      path: /getting-started/
     - title: About Pool
-      path: /sub-page-random/
+      path: /getting-started/
 - title: Tools & Processes
   pages:
     - title: Sub-page 1
