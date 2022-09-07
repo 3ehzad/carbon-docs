@@ -1,15 +1,35 @@
 - title: Mining Basics
   pages:
-    - title: Sub-page 1
-      path: /mining-basics
-    - title: Sub-page 2
-      path: /mining-basics
+    - title: Overview
+      path: /
+    - title: Introduction to mining
+      path: /
+    - title: What is an ASIC miner?
+      path: /
+    - title: What is cloud mining?
+      path: /
+    - title: What is merged mining?
+      path: /
+    - title: Mining Profitability
+      path: /
+    - title: AsicBoost
+      path: /
+    - title: Advanced mining options
+      path: /
 - title: Braiins Insights
   pages:
-    - title: Sub-page 1
-      path: /braiins-insights
-    - title: Sub-page 2
-      path: /braiins-insights
+    - title: Overview
+      path: /
+    - title: About Braiins Insights
+      path: /
+    - title: Bitcoin Mining Stats
+      path: /
+    - title: Profitability Calculator
+      path: /
+    - title: Cost to Mine 1 BTC
+      path: /
+    - title: Mining Pool Stats
+      path: /
 - title: Braiins OS+
   pages:
     - title: Sub-page 1
@@ -18,28 +38,48 @@
       path: /braiins-os
 - title: Farm Proxy
   pages:
-    - title: Sub-page 1
-      path: /farm-proxy
-    - title: Sub-page 2
-      path: /farm-proxy
+    - title: Overview
+      path: /
+    - title: Installation & Configuration
+      path: /farm-proxy/installation-and-configuration
+    - title: Advanced Options
+      path: /
+    - title: User Guide
+      path: /
+    - title: Monitoring with Prometheus and Grafana
+      path: /
+    - title: Troubleshooting
+      path: /
 - title: Farm Toolbox
   pages:
     - title: Sub-page 1
-      path: /farm-toolbox
+      path: /
     - title: Sub-page 2
-      path: /farm-toolbox    
+      path: /
 - title: Farm Monitor
   pages:
     - title: Sub-page 1
-      path: /farm-monitor
+      path: /
     - title: Sub-page 2
-      path: /farm-monitor
+      path: /
 - title: Braiins Pool
   pages:
-    - title: Sub-page 1
-      path: /braiins-pool
-    - title: Sub-page 2
-      path: /braiins-pool
+    - title: Overview
+      path: /
+    - title: Rewards & Payouts
+      path: /
+    - title: User Accounts
+      path: /
+    - title: Worker Management & Monitoring
+      path: /
+    - title: Technical Documentation
+      path: /
+    - title: Mobile App
+      path: /
+    - title: Troubleshooting
+      path: /
+    - title: About Pool
+      path: /
 - title: Tools & Processes
   pages:
     - title: Sub-page 1
