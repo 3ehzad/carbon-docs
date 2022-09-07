@@ -3,6 +3,7 @@ module.exports = {
     title: 'Gatsby Theme Carbon',
     description: 'A Gatsby theme for the carbon design system',
     keywords: 'gatsby,theme,carbon',
+    lang: 'en',
   },
   pathPrefix: `/gtc`,
   plugins: [
@@ -24,12 +25,11 @@ module.exports = {
         theme: {
           homepage: 'gr10',
         },
-        mediumAccount: 'carbondesign',
         repository: {
-          baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
-          subDirectory: '/packages/example',
+          baseUrl: 'https://github.com/3ehzad/carbon-docs',
+          branch: 'master',
         },
+        isSwitcherEnabled: false,
       },
     },
   ],
