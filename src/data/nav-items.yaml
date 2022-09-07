@@ -1,35 +1,35 @@
 - title: Mining Basics
   pages:
     - title: Overview
-      path: /
+      path: #
     - title: Introduction to mining
-      path: /
+      path: #
     - title: What is an ASIC miner?
-      path: /
+      path: #
     - title: What is cloud mining?
-      path: /
+      path: #
     - title: What is merged mining?
-      path: /
+      path: #
     - title: Mining Profitability
-      path: /
+      path: #
     - title: AsicBoost
-      path: /
+      path: #
     - title: Advanced mining options
-      path: /
+      path: #
 - title: Braiins Insights
   pages:
     - title: Overview
-      path: /
+      path: #
     - title: About Braiins Insights
-      path: /
+      path: #
     - title: Bitcoin Mining Stats
-      path: /
+      path: #
     - title: Profitability Calculator
-      path: /
+      path: #
     - title: Cost to Mine 1 BTC
-      path: /
+      path: #
     - title: Mining Pool Stats
-      path: /
+      path: #
 - title: Braiins OS+
   pages:
     - title: Sub-page 1
@@ -43,43 +43,43 @@
     - title: Installation & Configuration
       path: /farm-proxy/installation-and-configuration
     - title: Advanced Options
-      path: /
+      path: #
     - title: User Guide
-      path: /
+      path: #
     - title: Monitoring with Prometheus and Grafana
-      path: /
+      path: #
     - title: Troubleshooting
-      path: /
+      path: #
 - title: Farm Toolbox
   pages:
     - title: Sub-page 1
-      path: /
+      path: #
     - title: Sub-page 2
-      path: /
+      path: #
 - title: Farm Monitor
   pages:
     - title: Sub-page 1
-      path: /
+      path: #
     - title: Sub-page 2
-      path: /
+      path: #
 - title: Braiins Pool
   pages:
     - title: Overview
-      path: /
+      path: #
     - title: Rewards & Payouts
-      path: /
+      path: #
     - title: User Accounts
-      path: /
+      path: #
     - title: Worker Management & Monitoring
-      path: /
+      path: #
     - title: Technical Documentation
-      path: /
+      path: #
     - title: Mobile App
-      path: /
+      path: #
     - title: Troubleshooting
-      path: /
+      path: #
     - title: About Pool
-      path: /
+      path: #
 - title: Tools & Processes
   pages:
     - title: Sub-page 1
