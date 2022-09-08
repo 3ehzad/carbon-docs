@@ -1,1 +1,28 @@
 // This is where your application styles could go.
+.upcoming_webinar {
+    background-color: white;
+    padding: 25px;
+    margin-right: 0rem;
+    display: flex;
+}
+/* Button */
+.upcoming_webinar_attend {
+    background: #6B50FF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: 1px solid #6B50FF;
+}
+.upcoming_webinar_calendar {
+    background: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9c9c9c;
+    padding: 10px 15px;
+    border: 1px solid #9c9c9c;
+}
