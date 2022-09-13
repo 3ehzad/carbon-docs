@@ -30,6 +30,10 @@ const links = {
   ],
 };
 
-const CustomFooter = () => <Footer links={links} Content={Content} />;
+const FooterLogo = () => (
+  <img src="/images/braiins-logo.svg" alt="Braiins" width="120px"/>
+);
+
+const CustomFooter = () => <Footer links={links} Content={Content} Logo={FooterLogo} />;
 
 export default CustomFooter;
